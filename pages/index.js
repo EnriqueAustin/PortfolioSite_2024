@@ -67,7 +67,7 @@ const Home = () => {
           exit='hidden'
           transition={{ duration:1, ease: 'easeInOut' }}
         >
-          {/* <Avatar /> */}
+          <Avatar />
         </motion.div>
       </div>
     </div>
