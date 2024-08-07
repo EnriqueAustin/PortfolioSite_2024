@@ -13,7 +13,7 @@ import {
 const serviceData = [
   {
     icon: <RxCrop />,
-    title: 'Branding',
+    title: 'Network Security',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   },
   {
@@ -34,6 +34,11 @@ const serviceData = [
   {
     icon: <RxRocket />,
     title: 'SEO',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  },
+  {
+    icon: <RxCrop />,
+    title: 'Branding',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   },
 ];
@@ -63,7 +68,7 @@ const ServiceSlider = () => {
         clickable:true
       }}
       modules={[FreeMode, Pagination]}
-      className="h-[240px] sm:h-[340]"
+      className="h-[240px] sm:h-[340px]"
     >
       {
         serviceData.map((item, index) => {
