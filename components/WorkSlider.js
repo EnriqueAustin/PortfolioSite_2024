@@ -4,16 +4,16 @@ const workSlides = {
     {
       images: [
         {
-          title: 'title',
-          path: '/thumb1.jpg',
+          title: 'Ignis Intellect',
+          path: '/aisite.jpg',
         },
         {
-          title: 'title',
-          path: '/thumb2.jpg',
+          title: 'Maxuim Media',
+          path: '/MaxuimMedia.jpg',
         },
         {
-          title: 'title',
-          path: '/thumb3.jpg',
+          title: 'WFH Plumbing',
+          path: '/WFHPlumbing.jpg',
         },
         {
           title: 'title',

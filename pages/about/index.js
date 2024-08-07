@@ -8,6 +8,12 @@ import {
   FaReact,
   FaWordpress,
   FaFigma,
+  FaVuejs,
+  FaPython,
+  FaNodeJs,
+  FaGit,
+  FaGitlab,
+  
 } from "react-icons/fa";
 
 import {
@@ -15,6 +21,27 @@ import {
   SiFramer,
   SiAdobexd,
   SiAdobephotoshop,
+  SiNodedotjs,
+  SiExpress,
+  SiCsharp,
+  SiCplusplus,
+  SiMysql,
+  SiSolidity,
+  SiFlutter,
+  SiDart,
+  SiGithub,
+  SiSanity,
+  SiElasticsearch,
+  SiMongodb,
+  SiMariadb,
+  SiDocker,
+  SiKubernetes,
+  SiSwarm,
+  SiPowershell,
+  SiShell,
+  SiGnubash,
+  SiTailwindcss,
+  SiSass,
 } from "react-icons/si";
 
 // components
@@ -32,50 +59,127 @@ const aboutData = [
     title: "skills",
     info: [
       {
-        title: "Web Development",
+        title: "Front-end",
         icons: [
           <FaHtml5 />,
           <FaCss3 />,
           <FaJs />,
           <FaReact />,
+          <FaVuejs />,
           <SiNextdotjs />,
           <SiFramer />,
           <FaWordpress />,
         ],
       },
       {
+        title: "Back-end",
+        icons: [
+          <FaJs />,
+          <FaNodeJs />,
+          <SiExpress />,
+          <FaPython />,
+          <SiCsharp />,
+          <SiCplusplus />,
+          <SiMysql />
+        ],
+      },
+      {
+        title: "Blockchain",
+        icons: [
+          <SiSolidity />,
+        ],
+      },
+      {
+        title: "Mobile",
+        icons: [
+          <FaJs />,
+          <FaNodeJs />,
+          <SiFlutter />,
+          <SiDart />
+        ],
+      },
+      {
         title: "UI/UX Design",
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+        icons: [
+          <FaFigma />,
+          <SiAdobephotoshop />
+        ],
+      },
+      {
+        title: "Styling Systems",
+        icons: [
+          <FaCss3 />,
+          <SiTailwindcss />,
+          <SiSass />
+        ],
+      },
+      {
+        title: "Version Control",
+        icons: [
+          <FaGit />,
+          <SiGithub />,
+          <FaGitlab />
+        ],
+      },
+      {
+        title: "Content Management Systems",
+        icons: [
+          <FaWordpress />,
+          <SiSanity />
+        ],
+      },
+      {
+        title: "Databases",
+        icons: [
+          <SiElasticsearch />,
+          <SiMongodb />,
+          <SiMariadb />
+        ],
+      },
+      {
+        title: "Containerization",
+        icons: [
+          <SiDocker />,
+          <SiKubernetes />,
+          <SiSwarm />
+        ],
+      },
+      {
+        title: "Automation and Scripting",
+        icons: [
+          <SiPowershell />,
+          <SiGnubash />,
+        ],
       },
     ],
   },
-  {
-    title: "awards",
-    info: [
-      {
-        title: "Webby Awards - Honoree",
-        stage: "2011 - 2012",
-      },
-      {
-        title: "Adobe Design Achievement Awards - Finalist",
-        stage: "2009 - 2010",
-      },
-    ],
-  },
+  // {
+  //   title: "awards",
+  //   info: [
+  //     {
+  //       title: "Webby Awards - Honoree",
+  //       stage: "2011 - 2012",
+  //     },
+  //     {
+  //       title: "Adobe Design Achievement Awards - Finalist",
+  //       stage: "2009 - 2010",
+  //     },
+  //   ],
+  // },
   {
     title: "experience",
     info: [
       {
-        title: "UX/UI Designer - XYZ Company",
-        stage: "2012 - 2023",
+        title: "Dev/Ops & Full-Stack Software Engineer - Sintrex Integration Services (Pty) Ltd, Bellville",
+        stage: "2023 - 2024",
       },
       {
-        title: "Web Developer - ABC Agency",
-        stage: "2010 - 2012",
+        title: "NOC Operator/Network Monitoring - Sintrex Integration Services (Pty) Ltd, Bellville",
+        stage: "2022 - 2022",
       },
       {
-        title: "Intern - DEF Corporation",
-        stage: "2008 - 2010",
+        title: "Network & Wireless Technician - Rapid Networks, Vredenburg",
+        stage: "2022 - 2022",
       },
     ],
   },
@@ -83,16 +187,16 @@ const aboutData = [
     title: "credentials",
     info: [
       {
-        title: "Web Development - ABC University, LA, CA",
-        stage: "2011",
+        title: "Docker Mastery: With Kubernetes +Swarm - Docker Captain Program",
+        stage: "2024",
       },
       {
-        title: "Computer Science Diploma - AV Technical Institute",
-        stage: "2009",
+        title: "Higher Certificate (Systems Development)  - Mobile Application Development - IT Varsity",
+        stage: "2022",
       },
       {
-        title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
-        stage: "2006",
+        title: "Software Development - Pearson Institute, Cape Town, Durbanville",
+        stage: "2020",
       },
     ],
   },
@@ -136,8 +240,8 @@ const About = () => {
             exit="hidden"
           >
             5 years ago i began freelancing as a developer. Since then, I've
-            done remote work for agencies, consulting for startups, and
-            collaborated on digital products for business and consumer use.
+            done remote work for agencies, consulting and
+            collaborated on digital products for business and consumer use and currently employed as a Dev/Ops & Full-Stack software engineer.
           </motion.p>
           {/* counters */}
           <motion.div
@@ -160,7 +264,7 @@ const About = () => {
               {/* clients */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={25} duration={5} /> +
+                  <CountUp start={0} end={10} duration={5} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Satisfied clients
@@ -169,21 +273,21 @@ const About = () => {
               {/* projects */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
-                  <CountUp start={0} end={35} duration={5} /> +
+                  <CountUp start={0} end={22} duration={5} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Finished projects
                 </div>
               </div>
               {/* awards / optional section */}
-              <div className="relative flex-1 ">
+              {/* <div className="relative flex-1 ">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
                   <CountUp start={0} end={6} duration={5} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Awards won
                 </div>
-              </div>
+              </div> */}
             </div>
           </motion.div>
         </div>

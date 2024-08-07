@@ -37,7 +37,7 @@ const Home = () => {
             animate='show'
             exit='hidden'
           >
-            Discover a partnership that extends beyond ordinary – where creativity meets technology. At Maxuim Media, we blend artistic vision with technical expertise to deliver exceptional digital solutions.
+            Discover a partnership that extends beyond ordinary – where creativity meets technology. I blend artistic vision with technical expertise to deliver exceptional digital solutions.
           </motion.p>
           {/* spinny btn */}
           <div className='flex justify-center xl:hidden relative'>
