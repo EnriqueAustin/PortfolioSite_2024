@@ -29,7 +29,7 @@ const Services = () => {
               animate="show"
               exit="hidden"
             >
-              Lorem ipsum dolor set sdjfof f eospefj fes ew f ef we sfsd hgfg f fg fg  rts er fgs fgcgy h s  rx qwrfwa tsr get gxe grexg 5g exgexgerxgegwe xg rw aezfs f w 
+              I offer a wide range of services tailored to meet your unique digital needs, ensuring quality and excellence at every step.
             </motion.p>
           </div>
           <motion.div

@@ -2,24 +2,24 @@
 const testimonialData = [
   {
     image: '/t-avt-1.png',
-    name: 'Anne Smith',
+    name: 'Sarah Collins',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      '"The professionalism and dedication shine through in every project. Consistently delivers top-notch results, exceeding our expectations."',
   },
   {
     image: '/t-avt-2.png',
-    name: 'Jane Doe',
+    name: 'Nomvula Mkhize',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      '"Working with this developer was a game-changer for our business. The technical expertise and innovative approach brought our project to life."',
   },
   {
     image: '/t-avt-3.png',
-    name: 'Jhon Doe',
+    name: 'Michael Turner',
     position: 'Customer',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
+      '"The ability to merge creativity with technology was unmatched, transforming our vision into reality with precision and flair."',
   },
 ];
 

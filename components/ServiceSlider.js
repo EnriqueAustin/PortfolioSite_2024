@@ -14,32 +14,32 @@ const serviceData = [
   {
     icon: <RxCrop />,
     title: 'Network Security',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Secure your network with advanced monitoring to safeguard your data and infrastructure.',
   },
   {
     icon: <RxPencil2 />,
     title: 'Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Transform your ideas into visually appealing and functional designs, enhancing user experience.',
   },
   {
     icon: <RxDesktop />,
     title: 'Development',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'From front-end to back-end, I provide development services to bring your digital solutions to life.',
   },
   {
     icon: <RxReader />,
     title: 'Copywriting',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Crafting compelling and impactful content that resonates with your audience.',
   },
   {
     icon: <RxRocket />,
     title: 'SEO',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Optimize your website for search engines to increase visibility and drive traffic.',
   },
   {
     icon: <RxCrop />,
     title: 'Branding',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Build a strong brand that communicates values and attracts your target audience.',
   },
 ];
 

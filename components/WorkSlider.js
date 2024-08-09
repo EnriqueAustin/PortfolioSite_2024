@@ -16,20 +16,20 @@ const workSlides = {
           path: '/WFHPlumbing.jpg',
         },
         {
-          title: 'title',
-          path: '/thumb4.jpg',
+          title: 'Untold Bookings',
+          path: '/bookings.jpg',
         },
       ],
     },
     {
       images: [
         {
-          title: 'title',
-          path: '/thumb4.jpg',
+          title: 'Untold Travel',
+          path: '/untoldbooknigs.jpg',
         },
         {
-          title: 'title',
-          path: '/thumb1.jpg',
+          title: 'RoboPunks NFT',
+          path: '/robopunks.jpg',
         },
         {
           title: 'title',

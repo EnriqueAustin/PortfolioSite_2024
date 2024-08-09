@@ -42,6 +42,7 @@ import {
   SiGnubash,
   SiTailwindcss,
   SiSass,
+  SiApachecordova,
 } from "react-icons/si";
 
 // components
@@ -80,7 +81,17 @@ const aboutData = [
           <FaPython />,
           <SiCsharp />,
           <SiCplusplus />,
-          <SiMysql />
+          <SiElasticsearch />
+        ],
+      },
+      {
+        title: "Mobile",
+        icons: [
+          <FaJs />,
+          <FaNodeJs />,
+          <SiFlutter />,
+          <SiDart />,
+          <SiApachecordova />,
         ],
       },
       {
@@ -90,19 +101,10 @@ const aboutData = [
         ],
       },
       {
-        title: "Mobile",
-        icons: [
-          <FaJs />,
-          <FaNodeJs />,
-          <SiFlutter />,
-          <SiDart />
-        ],
-      },
-      {
         title: "UI/UX Design",
         icons: [
           <FaFigma />,
-          <SiAdobephotoshop />
+          // <SiAdobephotoshop />
         ],
       },
       {
@@ -113,14 +115,14 @@ const aboutData = [
           <SiSass />
         ],
       },
-      {
-        title: "Version Control",
-        icons: [
-          <FaGit />,
-          <SiGithub />,
-          <FaGitlab />
-        ],
-      },
+      // {
+      //   title: "Version Control",
+      //   icons: [
+      //     <FaGit />,
+      //     <SiGithub />,
+      //     <FaGitlab />
+      //   ],
+      // },
       {
         title: "Content Management Systems",
         icons: [
@@ -128,14 +130,14 @@ const aboutData = [
           <SiSanity />
         ],
       },
-      {
-        title: "Databases",
-        icons: [
-          <SiElasticsearch />,
-          <SiMongodb />,
-          <SiMariadb />
-        ],
-      },
+      // {
+      //   title: "Databases",
+      //   icons: [
+      //     <SiElasticsearch />,
+      //     <SiMongodb />,
+      //     <SiMariadb />
+      //   ],
+      // },
       {
         title: "Containerization",
         icons: [
@@ -239,7 +241,7 @@ const About = () => {
             animate="show"
             exit="hidden"
           >
-            5 years ago i began freelancing as a developer. Since then, I've
+            Years ago I began freelancing as a developer. Since then, I've
             done remote work for agencies, consulting and
             collaborated on digital products for business and consumer use and currently employed as a Dev/Ops & Full-Stack software engineer.
           </motion.p>

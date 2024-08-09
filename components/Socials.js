@@ -7,13 +7,13 @@ const Socials = () => {
       <Link href="https://www.youtube.com" className="hover:text-accent transition-all duration-300">
         <RiYoutubeLine />
       </Link>
-      <Link href="https://www.instagram.com/itstonyaustin" className="hover:text-accent transition-all duration-300">
+      <Link href="https://www.instagram.com/" className="hover:text-accent transition-all duration-300">
         <RiInstagramLine />
       </Link>
       {/* <Link href="https://www.facebook.com" className="hover:text-accent transition-all duration-300">
         <RiFacebookLine />
       </Link> */}
-      <Link href="https://twitter.com/itstonyaustin" className="hover:text-accent transition-all duration-300">
+      <Link href="https://twitter.com/" className="hover:text-accent transition-all duration-300">
         <RiTwitterXLine />
       </Link>
       <Link href="https://github.com/EnriqueAustin" className="hover:text-accent transition-all duration-300">
