@@ -13,7 +13,6 @@ import {
   FaNodeJs,
   FaGit,
   FaGitlab,
-  
 } from "react-icons/fa";
 
 import {
@@ -62,96 +61,80 @@ const aboutData = [
       {
         title: "Front-end",
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <FaVuejs />,
-          <SiNextdotjs />,
-          <SiFramer />,
-          <FaWordpress />,
+          <FaHtml5 key="html5" />,
+          <FaCss3 key="css3" />,
+          <FaJs key="js" />,
+          <FaReact key="react" />,
+          <FaVuejs key="vue" />,
+          <SiNextdotjs key="next" />,
+          <SiFramer key="framer" />,
+          <FaWordpress key="wordpress" />,
         ],
       },
       {
         title: "Back-end",
         icons: [
-          <FaJs />,
-          <FaNodeJs />,
-          <SiExpress />,
-          <FaPython />,
-          <SiCsharp />,
-          <SiCplusplus />,
-          <SiElasticsearch />
+          <FaJs key="js" />,
+          <FaNodeJs key="node" />,
+          <SiExpress key="express" />,
+          <FaPython key="python" />,
+          <SiCsharp key="csharp" />,
+          <SiCplusplus key="cplusplus" />,
+          <SiElasticsearch key="elasticsearch" />,
         ],
       },
       {
         title: "Mobile",
         icons: [
-          <FaJs />,
-          <FaNodeJs />,
-          <SiFlutter />,
-          <SiDart />,
-          <SiApachecordova />,
+          <FaJs key="js" />,
+          <FaNodeJs key="node" />,
+          <SiFlutter key="flutter" />,
+          <SiDart key="dart" />,
+          <SiApachecordova key="cordova" />,
         ],
       },
       {
         title: "Blockchain",
-        icons: [
-          <SiSolidity />,
-        ],
+        icons: [<SiSolidity key="solidity" />],
       },
       {
         title: "UI/UX Design",
         icons: [
-          <FaFigma />,
-          // <SiAdobephotoshop />
+          <FaFigma key="figma" />,
+          // <SiAdobephotoshop key="photoshop" />
         ],
       },
       {
         title: "Styling Systems",
-        icons: [
-          <FaCss3 />,
-          <SiTailwindcss />,
-          <SiSass />
-        ],
+        icons: [<FaCss3 key="css3" />, <SiTailwindcss key="tailwind" />, <SiSass key="sass" />],
       },
       // {
       //   title: "Version Control",
       //   icons: [
-      //     <FaGit />,
-      //     <SiGithub />,
-      //     <FaGitlab />
+      //     <FaGit key="git" />,
+      //     <SiGithub key="github" />,
+      //     <FaGitlab key="gitlab" />
       //   ],
       // },
       {
         title: "Content Management Systems",
-        icons: [
-          <FaWordpress />,
-          <SiSanity />
-        ],
+        icons: [<FaWordpress key="wordpress" />, <SiSanity key="sanity" />],
       },
       // {
       //   title: "Databases",
       //   icons: [
-      //     <SiElasticsearch />,
-      //     <SiMongodb />,
-      //     <SiMariadb />
+      //     <SiElasticsearch key="elasticsearch" />,
+      //     <SiMongodb key="mongodb" />,
+      //     <SiMariadb key="mariadb" />
       //   ],
       // },
       {
         title: "Containerization",
-        icons: [
-          <SiDocker />,
-          <SiKubernetes />,
-          <SiSwarm />
-        ],
+        icons: [<SiDocker key="docker" />, <SiKubernetes key="kubernetes" />, <SiSwarm key="swarm" />],
       },
       {
         title: "Automation and Scripting",
-        icons: [
-          <SiPowershell />,
-          <SiGnubash />,
-        ],
+        icons: [<SiPowershell key="powershell" />, <SiGnubash key="bash" />],
       },
     ],
   },
@@ -172,11 +155,13 @@ const aboutData = [
     title: "experience",
     info: [
       {
-        title: "Dev/Ops & Full-Stack Software Engineer - Sintrex Integration Services (Pty) Ltd, Bellville",
+        title:
+          "Dev/Ops & Full-Stack Software Engineer - Sintrex Integration Services (Pty) Ltd, Bellville",
         stage: "2023 - 2024",
       },
       {
-        title: "NOC Operator/Network Monitoring - Sintrex Integration Services (Pty) Ltd, Bellville",
+        title:
+          "NOC Operator/Network Monitoring - Sintrex Integration Services (Pty) Ltd, Bellville",
         stage: "2022 - 2022",
       },
       {
@@ -189,15 +174,18 @@ const aboutData = [
     title: "credentials",
     info: [
       {
-        title: "Docker Mastery: With Kubernetes +Swarm - Docker Captain Program",
+        title:
+          "Docker Mastery: With Kubernetes +Swarm - Docker Captain Program",
         stage: "2024",
       },
       {
-        title: "Higher Certificate (Systems Development)  - Mobile Application Development - IT Varsity",
+        title:
+          "Higher Certificate (Systems Development)  - Mobile Application Development - IT Varsity",
         stage: "2022",
       },
       {
-        title: "Software Development - Pearson Institute, Cape Town, Durbanville",
+        title:
+          "Software Development - Pearson Institute, Cape Town, Durbanville",
         stage: "2020",
       },
     ],
@@ -224,7 +212,7 @@ const About = () => {
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
         {/* text */}
         <div className="flex-1 flex flex-col justify-center">
-          <motion.h2 
+          <motion.h2
             variants={fadeIn("right", 0.2)}
             initial="hidden"
             animate="show"
@@ -241,9 +229,10 @@ const About = () => {
             animate="show"
             exit="hidden"
           >
-            Years ago I began freelancing as a developer. Since then, I've
-            done remote work for agencies, consulting and
-            collaborated on digital products for business and consumer use and currently employed as a Dev/Ops & Full-Stack software engineer.
+            Years ago I began freelancing as a developer. Since then, I&apos;ve done
+            remote work for agencies, consulting and collaborated on digital
+            products for business and consumer use and currently employed as a
+            Dev/Ops & Full-Stack software engineer.
           </motion.p>
           {/* counters */}
           <motion.div
@@ -296,10 +285,10 @@ const About = () => {
         {/* info */}
         <motion.div
           className="flex flex-col w-full xl:max-w-[48%] h-[480px]"
-            variants={fadeIn("left", 0.6)}
-            initial="hidden"
-            animate="show"
-            exit="hidden"
+          variants={fadeIn("left", 0.6)}
+          initial="hidden"
+          animate="show"
+          exit="hidden"
         >
           <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
             {aboutData.map((item, itemIndex) => {
@@ -330,8 +319,12 @@ const About = () => {
                   <div>{item.stage}</div>
                   <div className="flex gap-x-4">
                     {/* icons */}
-                    {item.icons?.map((icon, itemIndex) => {
-                      return <div className="text-2xl text-white">{icon}</div>;
+                    {item.icons?.map((icon, itemIcons) => {
+                      return (
+                        <div key={itemIcons} className="text-2xl text-white">
+                          {icon}
+                        </div>
+                      );
                     })}
                   </div>
                 </div>
